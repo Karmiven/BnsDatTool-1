@@ -1,6 +1,8 @@
 ﻿using System.IO;
 using System.Text;
 
+using NPOI.XSSF;
+
 using static Xylia.bns.Modules.DataFormat.Dat.BXML_CONTENT;
 
 namespace Xylia.bns.Modules.DataFormat.Dat
@@ -53,13 +55,28 @@ namespace Xylia.bns.Modules.DataFormat.Dat
 
 
 
-		#region 数据处理
+		#region DATA
 		public KeyInfo KeyInfo;
 
 
 		public byte[] Data;
 
-		public BXML_CONTENT Xml;
+
+		BXML_CONTENT _xml;
+
+		public BXML_CONTENT Xml
+		{
+			private set => _xml = value;
+			get
+			{
+				if (_xml is null) this.Decrypt();
+
+				return _xml;
+			}
+		}
+
+		
+
 
 		public void Decrypt()
 		{
