@@ -1,0 +1,26 @@
+<project outputDir="F:\Resources\文档\Programming\Publish\Confused" baseDir="F:\Resources\文档\Programming\Publish\Bin" xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" preset="normal" inherit="false">
+    <protection id="anti ildasm" />
+    <protection id="anti tamper" />
+    <protection id="constants" />
+    <protection id="ctrl flow" action="remove" />
+    <protection id="anti dump" />
+    <protection id="anti debug" />
+    <protection id="invalid metadata" />
+    <protection id="ref proxy" />
+    <protection id="resources" />
+    <protection id="rename" />
+    <protection id="anti ildasm" />
+  </rule>
+  <module path="..\..\C#\项目\Xylia\bns\DatTool\工程\BnsDatTool\bin\Release\Xylia.bns.exe" />
+  <module path="..\..\Public\MySql.Data.dll" />
+  <module path="..\..\Public\Newtonsoft.Json.dll" />
+  <module path="..\..\Public\NPOI.dll" />
+  <module path="..\..\Public\NPOI.OOXML.dll" />
+  <module path="..\..\Public\NPOI.OpenXml4Net.dll" />
+  <module path="..\..\Public\NPOI.OpenXmlFormats.dll" />
+  <module path="..\..\Public\HZH_Controls.dll" />
+  <module path="..\..\Public\ICSharpCode.SharpZipLib.dll" />
+  <module path="..\..\Public\MetroFramework.dll" />
+  <module path="..\..\Public\System.Data.SQLite.dll" />
+</project>
