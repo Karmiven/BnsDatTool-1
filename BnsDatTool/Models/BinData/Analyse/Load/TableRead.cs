@@ -16,7 +16,7 @@ using Xylia.bns.Modules.DataFormat.Analyse.Struct;
 using Xylia.bns.Modules.DataFormat.Analyse.Value;
 using Xylia.bns.Util.Sort;
 using Xylia.Extension;
-using Xylia.Files.XmlEx;
+using Xylia.Xml;
 
 namespace Xylia.bns.Modules.DataFormat.Analyse.Load.Config.Table
 {

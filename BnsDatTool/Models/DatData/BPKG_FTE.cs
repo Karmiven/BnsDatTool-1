@@ -75,8 +75,7 @@ namespace Xylia.bns.Modules.DataFormat.Dat
 			}
 		}
 
-		
-
+	
 
 		public void Decrypt()
 		{

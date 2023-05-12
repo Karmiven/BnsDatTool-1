@@ -5,7 +5,7 @@ using System.Linq;
 using System.Xml;
 
 using Xylia.Extension;
-using Xylia.Files.XmlEx;
+using Xylia.Xml;
 
 namespace Xylia.bns.Modules.DataFormat.ZoneData.TerrainData
 {

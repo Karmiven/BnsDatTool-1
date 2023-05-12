@@ -1,5 +1,5 @@
 ﻿using Xylia.bns.Modules.DataFormat.Analyse.Seq;
-using Xylia.Files.XmlEx;
+using Xylia.Xml;
 
 namespace Xylia.bns.Modules.DataFormat.Analyse.Type
 {
